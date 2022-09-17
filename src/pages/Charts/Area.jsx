@@ -16,7 +16,7 @@ import {
 } from "../../data/dummy";
 import { Header } from "../../components";
 
-import { useStateContext } from "../contexts/ContextProvider";
+import { useStateContext } from "../../contexts/ContextProvider";
 
 const Area = () => {
   const { currentMode } = useStateContext();
@@ -44,4 +44,3 @@ const Area = () => {
 };
 
 export default Area;
-ea;
